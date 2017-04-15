@@ -1,0 +1,1 @@
+var mongoose = require('mongoose');var Schema   = mongoose.Schema;var articleSchema = new Schema({	'title' : String,	'link' : String,	// 'note' : {	//  	type: Schema.Types.ObjectId,	//  	ref: 'Note'	// }});module.exports = mongoose.model('article', articleSchema);
